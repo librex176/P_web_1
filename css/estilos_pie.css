@@ -1,0 +1,23 @@
+#footer{
+    width: 100%;
+    height: 470px;
+    background: black;
+    color: white;
+    display: block;
+    overflow: hidden;
+
+}
+
+#footer > div{
+    float: left;
+    width: 30%;
+    height: 370px;
+    margin: 40px;
+    text-align: center;
+    color: white;
+    font-family: "Treuchet";
+}
+#footer ul{
+    text-align: left;
+    font-size: 25px;
+}

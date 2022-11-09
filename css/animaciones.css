@@ -1,0 +1,83 @@
+#logotipo .gear{
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    overflow: hidden;
+}
+
+@keyframes rotate{
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotateZ(360deg);
+    }
+}
+
+#logotipo:hover .gear{
+    animation: fromBellow 250ms linear;
+}
+@keyframes fromBellow{
+    0%{
+        transform: translateY(200%);
+    }
+    50%{
+        transform: translateY(200%);
+    }
+    100%{
+        transform: translateY(0%);
+    }
+}
+
+#logotipo:hover h3{
+    animation: fromRight 300ms linear;
+}
+@keyframes fromRight{
+   from{
+    transform: translateX(200%);
+   }
+   to{
+    transform: translateX(0%);
+   }
+}
+#banner{
+    animation: backBanner 10s linear;
+    overflow: hidden;
+    
+}
+@keyframes backBanner{
+    0%{
+        background-position: 0px 0px;
+    }
+
+    100%{
+        background-position: -200px -200px;
+    }
+}
+
+#banner h1{
+    animation: showText 10s linear;
+}
+@keyframes showText{
+    0%{
+        transform: translateX(-600%) scale(5,5);
+        opacity: 1;
+    }
+    50%{
+        transform: translateX(600%) scale(5,5);
+        opacity: 1;
+    }
+    75%{
+        transform: translateX(-600%) scale(5,5);
+        opacity: 0;
+        text-shadow: none;
+        color: transparent;
+    }
+    100%{
+        transform: translateX(0%) scale('1,1');
+        opacity: 1;
+        color: aliceblue    ;
+    }
+    
+}

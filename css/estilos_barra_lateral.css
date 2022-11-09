@@ -1,0 +1,134 @@
+#lateral{
+    width: 300px;
+    min-height: 1200px;
+    font-family: "Treuchet";
+    float: right;
+    
+}
+
+aside h3{
+    display: block;
+    width: auto;
+    height: 45px;
+    line-height: 45px;
+    background: url("../img/pxgray.png"), white;
+    box-shadow: 0px 1px 0px black, 1px 2px 0px gray, 2px 3px 0px grey, 3px 4px 0px grey;
+    font-size: 30px;
+    font-family: "BebasNeue";
+    font-weight: normal;
+    letter-spacing: 2px;
+    padding-left: 15px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    
+}
+
+#search{
+    width: 90%;
+    height: 30px;
+    margin: 10px auto;
+    background-color: aliceblue;
+    border-radius: 5px;
+    border: 1px solid gray;
+    box-shadow: 1px 1px 4px #ccc;
+}
+
+.aside-box{
+    width: 85%;
+    height: 240px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-top: 2px;
+    background: white;
+    
+    box-shadow: 0px 0px 1px rgba(0,0,0,0.3),
+    0px 3px 7px rgba(0,0,0,0.3),
+    0px 1px white inset,
+    0px -3px 2px rgba(0,0,0,0.3)inset;
+}
+
+#login input[type="email"],
+#login input[type="password"]{
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    height: 30px;
+    border: 1px spolid #ccc;
+    box-shadow: 1px 1px 1px #ccc inset;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding-left: 35px;
+    color: #ccc;
+}
+#login input[type="email"]:focus,
+#login input[type="password"]:focus{
+   color: black;
+   box-shadow: 1px 1px 1px grey inset;
+}
+
+#login #user, #login #password{
+    text-align: center;
+    display: block;
+    position: absolute;
+    margin-left: 15px;
+    height: 30px;
+    margin-top: 6px;
+    
+}
+
+#login #password{
+    margin-left: 18px;
+    margin-top: 25px;
+    font-size: 21px;
+}
+
+#login input[type="submit"],
+#login input[type="button"],
+#login input[type="reset"],
+#login button{
+    margin-left: 17px;
+    text-align: center;
+    width: 100px;
+    height: 35px;
+    margin-top: 20px;
+    color: white;
+    background: linear-gradient(to bottom, #3eb8e5 0%, #2ca0ca) 100%;
+    border: 1px solid #156785;
+    border-radius: 0px;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: "Treuchet";
+    transition: all 300ms;
+    margin-bottom: 20px;
+}
+#login input[type="submit"]:hover,
+#login input[type="button"]:hover,
+#login input[type="reset"]:hover,
+#login button:hover{
+    box-shadow: 0px 0px 3px gray;
+    
+}
+
+#login a{
+    display: block;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 14px;
+    color: #555;
+}
+
+#login a:hover{
+    text-decoration: none;
+    color:#0434ae;
+}
+#social{
+    height: 130px;
+}
+#social a{
+    color: #333;
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
